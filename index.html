@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jainil Kotak Portfolio</title>
+    <title>Jainil Kotak</title>
     <meta
       name="description"
       content="Portfolio of a Senior Machine Learning Engineer specializing in Agentic AI and Computer Vision."
@@ -24,45 +24,115 @@
     <link rel="stylesheet" href="src/styles/main.css" />
   </head>
   <body>
+    <div class="bg-circuit" aria-hidden="true"></div>
     <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-ai-illustration" aria-hidden="true"></div>
+    <div class="bg-particles" aria-hidden="true"></div>
     <div class="bg-orb bg-orb-a" aria-hidden="true"></div>
     <div class="bg-orb bg-orb-b" aria-hidden="true"></div>
 
     <header class="hero">
       <nav class="top-nav">
-         <span class="brand">Jainil Kotak Portfolio</span>
         <div class="nav-actions">
-          <a href="#projects" class="link-pill">View Projects</a>
           <a href="assets/resume.pdf" class="resume-btn" download>Download Resume</a>
         </div>
       </nav>
 
-      <section class="hero-content reveal">
-        <h1>Building production-grade machine learning systems with measurable impact</h1>
-        <p class="hero-copy">
-          I design and deploy reliable ML products, from model architecture to evaluation,
-          observability, and operational scale.
-        </p>
+      <section class="hero-content hero-home reveal">
+        <h1>Hello! I am Jainil</h1>
+        <p class="hero-subtitle">Machine Learning Engineer | AI Innovator</p>
 
-        <div class="hero-actions">
-          <a href="assets/resume.pdf" class="resume-btn hero-resume" download>Download Resume</a>
-          <a href="#projects" class="link-pill">Explore Work</a>
-        </div>
+        <article class="profile-card hero-profile-card reveal">
+          <!-- Replace src below with your photo file path -->
+          <img
+            src="assets/profile_picture.jpeg"
+            alt="Profile picture of Jainil Kotak"
+            class="profile-photo"
+          />
+        </article>
 
-        <div class="domain-grid">
-          <article class="reveal">
-            <h2>Agentic AI</h2>
-            <p>LLM agents, tool orchestration, retrieval, and safety-aware workflow design.</p>
-          </article>
-          <article class="reveal">
-            <h2>Computer Vision</h2>
-            <p>Detection and visual intelligence systems optimized for real-world latency constraints.</p>
-          </article>
+        <div class="hero-actions home-links">
+          <a href="assets/resume.pdf" class="link-pill" download>Download Resume</a>
+          <a href="#projects" class="link-pill">Projects</a>
+          <a href="#skills" class="link-pill">Skills</a>
+          <a href="#contact" class="link-pill">Contact Info</a>
         </div>
       </section>
     </header>
 
     <main>
+      <section id="skills" class="skills-section reveal">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Capabilities</p>
+            <h2>Skills</h2>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3>Programming Languages</h3>
+            <div class="skill-pill-row">
+              <span>Python</span>
+              <span>SQL</span>
+              <span>Java</span>
+              <span>C++</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Frameworks & Libraries</h3>
+            <div class="skill-pill-row">
+              <span>Google ADK</span>
+              <span>Langchain</span>
+              <span>TensorFlow</span>
+              <span>PyTorch</span>
+              <span>Scikit-learn</span>
+              <span>XGBoost</span>
+              <span>MMSegmentation</span>
+              <span>NumPy</span>
+              <span>Pandas</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Data Visualization and Geospatial</h3>
+            <div class="skill-pill-row">
+              <span>Matplotlib</span>
+              <span>Seaborn</span>
+              <span>Plotly</span>
+              <span>Geopandas</span>
+              <span>Rasterio</span>
+              <span>Folium</span>
+              <span>KeplerGl</span>
+              <span>QGIS</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Experiment Tracking and Evaluation</h3>
+            <div class="skill-pill-row">
+              <span>Tensorboard</span>
+              <span>MLFlow</span>
+              <span>Weight and Biases</span>
+              <span>Voxel51</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Backend & Technologies</h3>
+            <div class="skill-pill-row">
+              <span>FastAPI</span>
+              <span>Flask</span>
+              <span>REST APIs</span>
+              <span>Git</span>
+              <span>GCP</span>
+              <span>Docker</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
       <section id="projects" class="projects-section reveal">
         <div class="section-head">
           <div>
@@ -84,8 +154,17 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="contact">
       <div class="social-links">
+        <!-- Replace placeholder email in href below -->
+        <a href="mailto:imjnk1995@gmail.com" aria-label="Send email to imjnk1995@gmail.com">
+          <svg width="22" height="22" viewBox="0 0 24 24" role="img" aria-hidden="true">
+            <path
+              fill="currentColor"
+              d="M20 4H4A2 2 0 0 0 2 6V18A2 2 0 0 0 4 20H20A2 2 0 0 0 22 18V6A2 2 0 0 0 20 4ZM20 8.2L12 13L4 8.2V6L12 10.8L20 6V8.2Z"
+            />
+          </svg>
+        </a>
         <a href="https://www.linkedin.com/in/jainil-kotak-a26396191/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile">
           <svg width="22" height="22" viewBox="0 0 24 24" role="img" aria-hidden="true">
             <path

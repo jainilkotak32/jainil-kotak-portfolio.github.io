@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">AI themed background illustration</title>
+  <desc id="desc">Subtle network and circuit motif for an AI portfolio background</desc>
+  <defs>
+    <linearGradient id="lineA" x1="220" y1="140" x2="1420" y2="860" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#84b8ff"/>
+      <stop offset="1" stop-color="#0a42b4"/>
+    </linearGradient>
+    <linearGradient id="lineB" x1="320" y1="860" x2="1320" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c89ff"/>
+      <stop offset="1" stop-color="#9fd0ff"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 500) rotate(90) scale(420 640)">
+      <stop offset="0" stop-color="#6ca8ff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#6ca8ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <ellipse cx="800" cy="500" rx="640" ry="420" fill="url(#halo)"/>
+
+  <g opacity="0.18" stroke-linecap="round" stroke-width="3.4" filter="url(#softGlow)">
+    <path d="M252 330H474L580 224H788L928 364H1188L1346 206" stroke="url(#lineA)"/>
+    <path d="M258 694H466L618 542H844L966 664H1228L1368 804" stroke="url(#lineA)"/>
+    <path d="M320 500H574L704 370H912L1026 500H1268" stroke="url(#lineB)"/>
+    <path d="M378 252L522 396H680L808 268H994L1132 406H1278" stroke="url(#lineB)"/>
+    <path d="M354 772L512 646H732L852 766H1064L1202 638H1336" stroke="url(#lineB)"/>
+  </g>
+
+  <g stroke="url(#lineA)" stroke-width="2.4" opacity="0.14">
+    <path d="M582 502C582 427.993 641.993 368 716 368H876C950.007 368 1010 427.993 1010 502V502C1010 576.007 950.007 636 876 636H716C641.993 636 582 576.007 582 502V502Z"/>
+    <path d="M632 500C632 454.712 668.712 418 714 418H878C923.288 418 960 454.712 960 500V500C960 545.288 923.288 582 878 582H714C668.712 582 632 545.288 632 500V500Z"/>
+  </g>
+
+  <g fill="#0a42b4" opacity="0.2">
+    <circle cx="252" cy="330" r="8"/>
+    <circle cx="474" cy="330" r="7"/>
+    <circle cx="580" cy="224" r="8"/>
+    <circle cx="788" cy="224" r="9"/>
+    <circle cx="928" cy="364" r="7"/>
+    <circle cx="1188" cy="364" r="8"/>
+    <circle cx="1346" cy="206" r="9"/>
+
+    <circle cx="258" cy="694" r="8"/>
+    <circle cx="466" cy="694" r="7"/>
+    <circle cx="618" cy="542" r="8"/>
+    <circle cx="844" cy="542" r="7"/>
+    <circle cx="966" cy="664" r="8"/>
+    <circle cx="1228" cy="664" r="8"/>
+    <circle cx="1368" cy="804" r="9"/>
+
+    <circle cx="320" cy="500" r="8"/>
+    <circle cx="574" cy="500" r="7"/>
+    <circle cx="704" cy="370" r="8"/>
+    <circle cx="912" cy="370" r="7"/>
+    <circle cx="1026" cy="500" r="8"/>
+    <circle cx="1268" cy="500" r="9"/>
+  </g>
+
+  <g fill="#84b8ff" opacity="0.18">
+    <circle cx="378" cy="252" r="6"/>
+    <circle cx="522" cy="396" r="6"/>
+    <circle cx="680" cy="396" r="6"/>
+    <circle cx="808" cy="268" r="6"/>
+    <circle cx="994" cy="268" r="6"/>
+    <circle cx="1132" cy="406" r="6"/>
+    <circle cx="1278" cy="406" r="6"/>
+
+    <circle cx="354" cy="772" r="6"/>
+    <circle cx="512" cy="646" r="6"/>
+    <circle cx="732" cy="646" r="6"/>
+    <circle cx="852" cy="766" r="6"/>
+    <circle cx="1064" cy="766" r="6"/>
+    <circle cx="1202" cy="638" r="6"/>
+    <circle cx="1336" cy="638" r="6"/>
+  </g>
+</svg>
